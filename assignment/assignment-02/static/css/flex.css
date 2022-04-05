@@ -1,0 +1,51 @@
+.container {
+    width: 800px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.title {
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 15%;
+    width: 98%;
+    margin: 0 auto;
+}
+.recent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 30%;
+}
+
+.re {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    background-color: lightgoldenrodyellow;
+}
+
+.popular {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 50%;
+}
+
+.po {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    align-items: center;
+}
+
+.popular-1 {
+    flex-basis: 74%;
+}
+.popular-2 {
+    flex-basis: 24%;
+}
