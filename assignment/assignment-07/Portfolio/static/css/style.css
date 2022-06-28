@@ -1,0 +1,479 @@
+body {
+    background-color: #000;
+    font-size: 14px;
+    font-family: Raleway, arial, sans-serif;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 150px 15px;
+}
+.home-content{
+	display: table;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+    position: relative;
+}
+
+.home-text{
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.hs-line-4 {
+    position: relative;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgba(255,255,255, .85);
+}
+
+.btn-mod.btn-circle {
+    border-radius: 30px;
+}
+.btn-mod.btn-w {
+    color: #000;
+    background: rgba(255,255,255, .9);
+}
+.btn-mod.btn-small {
+    padding: 6px 15px 5px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+
+.banner-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgba(255,255,255, .8);
+}
+.align-center {
+    text-align: center !important;
+}
+.section-heading {
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.3;
+    color: #555;
+}
+
+.section-text {
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    color: #888;
+    line-height: 1.8;
+    margin: 0 10rem;
+}
+.page-section {
+    padding: 120px 0;
+}
+.btn-mod.btn-circle {
+    border-radius: 30px;
+}
+.btn-mod.btn-w {
+    color: #000;
+    background: rgba(255,255,255, .9);
+}
+.btn-mod.btn-small {
+    padding: 6px 15px 5px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.btn-mod, a.btn-mod {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 8px 20px 7px;
+    color: #fff;
+    background: rgba(34,34,34, .9);
+    border: 2px solid transparent;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    border-radius: 4px;
+}
+.project-grid {
+    margin: -20px 0 0 -1px;
+    text-align: center;
+    font-size: 0;
+    word-spacing: 0;
+}
+.project-item {
+    display: inline-block;
+    width: 270px;
+    margin: 20px 0 0 1px;
+    position: relative;
+    font-size: 14px;
+    word-spacing: normal;
+    text-align: center;
+    cursor: default;
+}
+.project-item-image {
+    position: relative;
+    overflow: hidden;
+}
+.project-item-descr.dark{
+    background: rgba(37,37,37, .95);
+    color: #bbb;
+}
+.project-item-name {
+    margin-bottom: 2px;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.project-item-role {
+    margin-bottom: 5px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.footer {
+    text-align: center;
+    color: #707070;
+    font-size: 12px;
+}
+
+.bg-dark {
+    background-color: #222;
+}
+
+.bg-dark-alfa-90 {
+    background-color: #111;
+}
+.page-section {
+    padding: 120px 0;
+}
+.relative {
+    position: relative;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.banner-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgba(255,255,255, .8);
+}
+
+.align-center {
+    text-align: center !important;
+}
+.section-heading {
+    margin: 0 0 5rem 0;
+    padding: 0;
+    font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.3;
+    color: #555;
+}
+.section-line {
+    width: 55px;
+    height: 1px;
+    margin: 30px auto;
+    background: #e41919;
+}
+.st-point {
+    margin-right: -5px;
+    color: #e41919;
+    font-family: Montserrat, arial, sans-serif;
+    font-weight: 400;
+}
+
+.footer-title {
+    color: rgba(255,255,255, .8);
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.about-me-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+.about-me-wrap {
+    margin: 0 3rem;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 14rem;
+    margin: 0 auto;
+    opacity: .8;
+}
+
+.about-me-title {
+    color: rgba(255,255,255, .8);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.about-me-content {
+    font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    
+    line-height: 1.3;
+    color: #aaa;
+}
+
+/* lightmode */
+body.light {
+    background-color: #fff;
+    font-size: 14px;
+    font-family: Raleway, arial, sans-serif;
+}
+.light .hs-line-4 {
+    position: relative;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgba(0,0,0, .85);
+}
+.light .hs-line-5 {
+    position: relative;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 0.65;
+    text-transform: uppercase;
+    letter-spacing: 0.32em;
+    color: rgba(0,0,0, .85);
+}
+.light .btn-mod.btn-w {
+    color: #fff;
+    background: rgba(0,0,0, .9);
+}
+.light .banner-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgba(0,0,0, .8);
+}
+
+.light .section-heading {
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.3;
+    color: #bbb;
+}
+
+.light .section-text {
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    color: #bbb;
+    line-height: 1.8;
+    margin: 0 10rem;
+}
+
+.light .btn-mod.btn-w{
+    color: #fff;
+    background: rgba(0,0,0, .9);
+}
+
+.light hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #111;
+}
+
+.light .btn-mod, a.btn-mod {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 8px 20px 7px;
+    color: #000;
+    background: rgba(220,220,220, .9);
+    border: 2px solid transparent;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+.light .project-item-descr{
+    background: rgba(220,220,220, .95);
+    color: #555;
+}
+
+
+.light .footer{
+    text-align: center;
+    color: #aaa;
+    font-size: 12px;
+}
+.light .bg-dark {
+    background-color: #ddd;
+}
+
+.light .bg-dark-alfa-90 {
+    background-color: #eee;
+}
+
+
+.light .banner-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgba(0,0,0, .8);
+}
+
+.light .section-heading {
+    margin: 0 0 5rem 0;
+    padding: 0;
+    font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.3;
+    color: #bbb;
+}
+.light .section-line {
+    width: 55px;
+    height: 1px;
+    margin: 30px auto;
+    background: #e41919;
+}
+.light .st-point {
+    margin-right: -5px;
+    color: #e41919;
+    font-family: Montserrat, arial, sans-serif;
+    font-weight: 400;
+}
+
+.light .footer-title {
+    color: rgba(0,0,0, .8);
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+
+.light .about-me-title {
+    color: rgba(0,0,0, .8);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.light .about-me-content {
+    font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    
+    line-height: 1.3;
+    color: #555;
+} 
+
+ /* toggle */
+ .label {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50px;
+    height: 26px;
+    background-color: #444;
+    border-radius: 50px;
+    transform: scale(1.5);
+    position: relative;
+    margin-left: 0.8rem;
+}
+
+.ball {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    top: 2px;
+    left: 26px;
+    transition: transform 0.2s ease-out;
+}
+
+
+
+.checkbox:checked + .label .ball {
+    transform: translateX(-24px);
+
+}
+
+.checkbox {
+    position: absolute;
+    /* display: none; */
+    opacity: 0;
+}
+
+.fa-moon {
+    color: #f1c40f;
+
+}
+
+.fa-sun {
+    color: #f39c12;
+}

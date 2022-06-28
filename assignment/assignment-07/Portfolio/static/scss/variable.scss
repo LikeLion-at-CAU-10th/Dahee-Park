@@ -1,0 +1,75 @@
+//media
+$mobildSize : 390px;
+
+$tabletSize : 560px;
+
+$pcSize : 1100px;
+
+@mixin respond-to($media){
+    @if $media == mobile {
+        @media only screen and (max-width: $tabletSize) {@content;}
+    }
+
+    @else if $media == tablet {
+        @media only screen and (min-width: $tableSize) and (max-width: $pcSize) {@content;}
+    }
+
+    @else if $media == pc {
+        @media only screen and (min-width: $pcSize) {@content;}
+    }
+}
+
+.hs-wrap-1 {
+    @include respond-to(mobile) {
+        max-width: 220px;
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    @include respond-to(tablet) {
+        max-width: 450px;
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    @include respond-to(pc) {
+        max-width: 520px;
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        box-sizing: border-box;
+    }
+}
+
+.hs-line-5 {
+    @include respond-to(mobile) {
+        letter-spacing: 0em;
+        font-size: 35px;
+        position: relative;
+        font-weight: 800;
+        line-height: 0.65;
+        text-transform: uppercase;
+        color: rgba(255,255,255, .85);
+
+    }
+    @include respond-to(tablet) {
+        letter-spacing: 0.18em;
+        font-size: 62px;
+        position: relative;
+        font-weight: 800;
+        line-height: 0.65;
+        text-transform: uppercase;
+        color: rgba(255,255,255, .85);
+    }
+    @include respond-to(pc) {
+        letter-spacing: 0.32em;
+        font-size: 62px;
+        position: relative;
+        font-weight: 800;
+        line-height: 0.65;
+        text-transform: uppercase;
+        color: rgba(255,255,255, .85);
+    }
+}
